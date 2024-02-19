@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { theme } from 'theme';
+// import { theme } from 'theme';
 
 export const NavBar = styled.header`
   box-shadow: 0px 2px 10px 1px ${({ theme }) => theme.colors.dark};
