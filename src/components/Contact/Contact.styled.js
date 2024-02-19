@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ContactWrapper = styled.div`
 padding: ${({ theme }) => theme.spacing(10)};
-  background-color: ${({ theme }) => theme.colors.light};
+  /* background-color: ${({ theme }) => theme.colors.light}; */
   border-radius: ${({ theme }) => theme.spacing(2)};
 
   color: ${({ theme }) => theme.colors.gray};

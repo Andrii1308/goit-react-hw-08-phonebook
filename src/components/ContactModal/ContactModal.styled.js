@@ -27,10 +27,6 @@ export const customStyles = {
 };
 
 export const ModalContainer = styled.div`
-            /* display: flex;
-            flex-direction: column;
-            gap: 10px;
-            padding: 20px; */
             padding: ${({ theme }) => theme.spacing(10)};
   background-color: ${({ theme }) => theme.colors.light};
   border-radius: ${({ theme }) => theme.spacing(2)};
